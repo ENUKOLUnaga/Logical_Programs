@@ -17,7 +17,6 @@ public class DuplicateNumbers {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
 		int[] arr=new int[5];
 		for(int i=0;i<arr.length;i++)
@@ -26,13 +25,9 @@ public class DuplicateNumbers {
 		}
 		for(int j=0;j<arr.length;j++)
 		{
-			System.out.println(arr[j]+" ");
+			System.out.print(arr[j]+" ");
 		}
-<<<<<<< HEAD
-=======
-		Checker(arr);
->>>>>>> array
-			
-	}
 
+		Checker(arr);	
+	}
 }

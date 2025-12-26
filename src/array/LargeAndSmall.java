@@ -2,8 +2,8 @@ package array;
 
 import java.util.Scanner;
 
-public class GreatSmall {
-	public static void BigSmall(int[] arr)
+public class LargeAndSmall {
+	public static void largestSmallest(int[] arr)
 	{
 		int max=arr[0];
 		for(int i=0;i<arr.length;i++)
@@ -26,7 +26,6 @@ public class GreatSmall {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
 		int[] arr=new int[n];
@@ -34,7 +33,6 @@ public class GreatSmall {
 		{
 			arr[i]=sc.nextInt();
 		}
-		BigSmall(arr);
+		largestSmallest(arr);
 	}
-
 }
