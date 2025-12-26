@@ -2,8 +2,8 @@ package array;
 
 import java.util.Scanner;
 
-public class DuplicateNumbers {
-	public static void Checker(int[] arr)
+public class GreatSmall {
+	public static void BigSmall(int[] arr)
 	{
 		int max=arr[0];
 		for(int i=0;i<arr.length;i++)
@@ -14,22 +14,27 @@ public class DuplicateNumbers {
 			}
 		}
 		System.out.println(max);
+		int min=arr[0];
+		for(int i=0;i<arr.length;i++)
+		{
+			if(arr[i]<min)
+			{
+				min=arr[i];
+			}
+		}
+		System.out.println(min);
 	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
-		int[] arr=new int[5];
+		int n=sc.nextInt();
+		int[] arr=new int[n];
 		for(int i=0;i<arr.length;i++)
 		{
 			arr[i]=sc.nextInt();
 		}
-		for(int j=0;j<arr.length;j++)
-		{
-			System.out.println(arr[j]+" ");
-		}
-		Checker(arr);
-			
+		BigSmall(arr);
 	}
 
 }
