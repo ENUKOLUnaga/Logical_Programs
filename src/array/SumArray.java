@@ -1,5 +1,4 @@
 package array;
-
 public class SumArray {
 
 	public static void main(String[] args) {
