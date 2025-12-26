@@ -1,7 +1,5 @@
 package array;
-
 import java.util.Scanner;
-
 public class DuplicateNumbers {
 	public static void Checker(int[] arr)
 	{
@@ -15,7 +13,6 @@ public class DuplicateNumbers {
 		}
 		System.out.println(max);
 	}
-
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		int[] arr=new int[5];
@@ -27,7 +24,6 @@ public class DuplicateNumbers {
 		{
 			System.out.print(arr[j]+" ");
 		}
-
 		Checker(arr);	
 	}
 }

@@ -1,5 +1,4 @@
 package array;
-import java.util.Scanner;
 public class Reverse {
 	public static void reverse(int[] arr)
 	{

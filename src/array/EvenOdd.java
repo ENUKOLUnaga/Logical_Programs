@@ -1,5 +1,4 @@
 package array;
-
 public class EvenOdd {
 	public static void evenodd(int[] arr)
 	{
@@ -18,7 +17,6 @@ public class EvenOdd {
 		System.out.println("Even count is :"+even_sum);
 		System.out.println("odd count is :"+odd_sum);
 	}
-
 	public static void main(String[] args) {
 		int[] arr = {1, 2, 3, 4, 5};
 		evenodd(arr);
