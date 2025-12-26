@@ -1,10 +1,7 @@
 package strings;
-
 import java.util.Scanner;
-
-
-public class LowerUpper {
-	public static void UtoLower(String str)
+public class LowerToUpper {
+	public static void UppertoLower(String str)
 	{
 		char[] ch = str.toCharArray();
 
@@ -15,14 +12,9 @@ public class LowerUpper {
         }
         System.out.println(ch);
 	}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args) {	
 		Scanner sc=new Scanner(System.in);
 		String str=sc.nextLine();
-		UtoLower(str);
-		
-
+		UppertoLower(str);
 	}
-
 }

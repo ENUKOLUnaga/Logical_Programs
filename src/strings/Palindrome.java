@@ -1,24 +1,21 @@
 package strings;
-
 import java.util.Scanner;
 
 public class Palindrome {
-	public static String Reversestr(String str)
+	public static String Reversestr(String string)
 	{
-		String s2="";
-		for(int i=str.length()-1;i>=0;i--)
+		String string2="";
+		for(int i=string.length()-1;i>=0;i--)
 		{
-			s2=s2+str.charAt(i);
+			string2=string2+string.charAt(i);
 		}
-		return s2;
+		return string2;
 	}
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
-		String str=sc.nextLine();
-		String res=Reversestr(str);
-		if(res.equalsIgnoreCase(str))
+		String string=sc.nextLine();
+		String res=Reversestr(string);
+		if(res.equalsIgnoreCase(string))
 		{
 			System.out.println("Palindrome");
 		}
@@ -27,5 +24,4 @@ public class Palindrome {
 			System.out.println("Not a Palindrome");
 		}
 	}
-
 }
